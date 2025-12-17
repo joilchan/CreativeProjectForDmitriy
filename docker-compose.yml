@@ -1,0 +1,54 @@
+
+
+services:
+  # --- 1. Сервис Базы данных (MySQL) ---
+  db:
+    image: mysql:8.0
+    container_name: mysql-db
+    environment:
+      # Важно: замените эти значения на свои!
+      MYSQL_ROOT_PASSWORD: joilloij
+      MYSQL_DATABASE: sexshopwarehouse_db
+    ports:
+      # Опционально: для доступа с хоста (например, через MySQL Workbench)
+      - "3307:3306"
+    volumes:
+      # Для сохранения данных между перезапусками
+      - mysql_data:/var/lib/mysql
+    # Опционально: для инициализации базы данных скриптами
+    # - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  # --- 2. Сервис Бэкенда (ASP.NET) ---
+  backend:
+    build:
+      context: ./SexShopWarehouseAPI # Путь к папке с Dockerfile бэкенда
+      dockerfile: Dockerfile
+    container_name: aspnet-backend
+    ports:
+      - "8080:8080" # Маппинг порта
+    environment:
+      # Строка подключения для ASP.NET приложения
+      # Используйте имя сервиса 'db' как хост!
+      ConnectionStrings__DefaultConnection: "Server=localhost;Database=sexshopwarehouse_db;User=root;Password=joilloij;"
+    depends_on:
+      # Указывает, что бэкенд зависит от БД.
+      # НЕ ГАРАНТИРУЕТ, что БД готова, но запускает ее первой.
+      - db
+    restart: on-failure
+
+  # --- 3. Сервис Фронтенда (React + Nginx) ---
+  frontend:
+    build:
+      context: SexShopWarehouseApp # Путь к папке с Dockerfile фронтенда
+      dockerfile: Dockerfile
+    container_name: react-frontend
+    ports:
+      - "3000:80" # Порт 3000 на хосте, маппинг на порт Nginx (80)
+    depends_on:
+      - backend # Фронтенд зависит от бэкенда (API)
+    # Если фронтенд должен обращаться к бэкенду, убедитесь,
+    # что в коде React/Nginx используется правильный адрес (например, http://localhost:8080 или имя контейнера 'backend')
+
+# --- 4. Volumes ---
+volumes:
+  mysql_data: # Именованный том для сохранения данных MySQL

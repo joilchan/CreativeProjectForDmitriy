@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\joil\\Desktop\\CreativeProjectForDmitriy\\SexShopWarehouseAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
-      "RelativeMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+      "AbsoluteMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\data\\sexshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\data\\sexshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\data\\sexshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3636BBC7-8437-44D5-ADDD-1CE2C4578D1E}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\data\\sexshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|c:\\users\\joil\\desktop\\creativeprojectfordmitriy\\sexshopwarehouseapi\\sexshopwarehouseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43464E6D-0796-8A2A-EFF1-E23B38FF19C5}|SexShopWarehouseAPI\\SexShopWarehouseAPI.csproj|solutionrelative:sexshopwarehouseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +42,7 @@
               "RelativeToolTip": "SexShopWarehouseAPI\\docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-12-15T21:54:00.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T21:54:00.898Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "SexShopWarehouseAPI\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-15T21:51:58.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T21:51:58.492Z"
             },
             {
               "$type": "Document",
@@ -73,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SexShopContext.cs",
               "DocumentMoniker": "C:\\Users\\joil\\Desktop\\CreativeProjectForDmitriy\\SexShopWarehouseAPI\\SexShopWarehouseAPI\\Data\\SexShopContext.cs",
               "RelativeDocumentMoniker": "SexShopWarehouseAPI\\Data\\SexShopContext.cs",
@@ -81,12 +79,11 @@
               "RelativeToolTip": "SexShopWarehouseAPI\\Data\\SexShopContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T21:28:08.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T21:28:08.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joil\\Desktop\\CreativeProjectForDmitriy\\SexShopWarehouseAPI\\SexShopWarehouseAPI\\Program.cs",
               "RelativeDocumentMoniker": "SexShopWarehouseAPI\\Program.cs",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "SexShopWarehouseAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T21:08:23.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T21:08:23.399Z"
             }
           ]
         }

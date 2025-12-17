@@ -1,20 +1,22 @@
-# Use the latest LTS version of Node.js
-FROM node:18-alpine
-
-# Set the working directory inside the container
+# 1. Сборка приложения
+FROM node:20-alpine AS build
 WORKDIR /app
 
-# Copy package.json and package-lock.json
-COPY package*.json ./
-
-# Install dependencies
+# Шаг 1: Копируем файлы манифеста и устанавливаем зависимости
+# Это важно для кэширования: если package.json не меняется, npm install не запускается заново
+COPY package.json .
+COPY package-lock.json .
 RUN npm install
 
-# Copy the rest of your application files
+# Шаг 2: Копируем остальные файлы исходного кода
 COPY . .
 
-# Expose the port your app runs on
-EXPOSE 8080
+# Шаг 3: Выполняем сборку
+RUN npm run build
 
-# Define the command to run your app
-CMD ["npm", "run", "dev"]
+# 2. Обслуживание статики (через Nginx)
+FROM nginx:alpine
+# *** ИЗМЕНЕНИЕ ЗДЕСЬ ***
+COPY --from=build /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
